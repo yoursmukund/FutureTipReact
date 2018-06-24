@@ -1,9 +1,56 @@
+@font-face {
+  font-family: 'regular';
+  src: url('./fonts/regular.woff');
+}
+@font-face {
+  font-family: 'light';
+  src: url('./fonts/light.woff');
+}
+@font-face {
+  font-family: 'bold';
+  src: url('./fonts/bold.woff');
+}
+
+*{
+  font-family: regular;
+}
+
+.logo-text{
+  font-size: 18px;
+  font-family: light;
+  line-height: 50px;
+}
+
 .header{
-  height: 100px;
   width: 100%;
+  height: 50px;
+  box-shadow: -3px -3px 20px 0px;
 }
 
 .logo{
-  height: 150px;
-  width: 150px;
+  height: 50px;
+  width: 50px;
+  margin-left: 60px;
+}
+
+.main-nav{
+  list-style: none;
+  height: 50px;
+  padding-right: 150px;
+  margin: 0%;
+}
+
+.main-nav li{
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  float: right;
+  line-height: 50px;
+  text-align: center;
+  font-size: 110%;
+}
+
+.main-nav li:hover{
+  border-bottom: 4px solid orange;
+  transition: border-bottom 0.2s;
 }
