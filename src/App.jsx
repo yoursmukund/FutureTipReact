@@ -32,7 +32,7 @@ const AppDisplay = () => {
         </Col>
         <Col lg={12} md={12} className="tagline-container">
           <div className='tagline'>
-            <h1>Meet your new</h1>
+            <h1>Meet your personal</h1>
             <h2>Astrologer</h2>
             <h2>+</h2>
             <h2>Therapist</h2>
