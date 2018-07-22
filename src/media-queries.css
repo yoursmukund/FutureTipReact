@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1200px){
+    .logo-text{
+        font-size: 15px;
+    }
+
+    .tagline h2{
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    .tagline p{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .tagline h2{
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    .tagline p{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .main-nav{
+        padding-right: 100px;
+    }
+
+    .tagline h2{
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 15px;
+    }
+
+    .tagline p{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 15px;
+    }
+
+    .app-screenshot{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .main-nav{
+        display:none
+    }
+    .bars-icon{
+        display: inline-block;
+    }
+
+    .tagline h2{
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 15px;
+    }
+
+    .tagline p{
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 15px;
+    }
+
+    .app-screenshot{
+        width: 100px;
+    }
+
+    .tagline{
+        padding-top:10px;
+    }
+}
